@@ -1,0 +1,16 @@
+program Kratniy3and5;
+const
+    n = 999;
+var
+    q: integer;
+    sum : longint;
+begin
+    for q := 1 to do
+    begin
+        if (q mod 3 = 0) or (q mod 5 = 0) then
+        begin
+            sum := sum + q;
+        end;
+    end;
+    writeln(sum)    
+end.
