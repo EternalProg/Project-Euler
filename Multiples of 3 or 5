@@ -5,7 +5,7 @@ var
     q: integer;
     sum : longint;
 begin
-    for q := 1 to do
+    for q := 1 to n do
     begin
         if (q mod 3 = 0) or (q mod 5 = 0) then
         begin
