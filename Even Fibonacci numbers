@@ -1,0 +1,20 @@
+program FibonacciNumbers;
+const  
+    n = 4000000;
+var
+    q, w, e, sum: longint;
+begin
+    q := 0;
+    w := 1;
+    while e < n do
+    begin
+        if (e mod 2 = 0) then
+        begin
+             sum := sum + e;
+        end;
+        e := q + w;
+        q := w;
+        w := e;
+    end;
+    writeln(sum)
+end.
